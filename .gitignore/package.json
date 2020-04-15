@@ -1,12 +1,14 @@
 {
-  "name": "Loli quote",
+  "name": "bot_loli_2",
   "version": "1.0.0",
   "description": "",
-  "main": "loli.js",
-  "scripts": {"test": "echo \"Error: no test specified\" && exit 1"},
-  "author": "Dexhort",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies":{
-    "discord.js": "^11.2.1"
+  "dependencies": {
+    "discord.js": "^12.1.1"
   }
 }
