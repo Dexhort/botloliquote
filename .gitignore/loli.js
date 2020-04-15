@@ -6,7 +6,7 @@ const quotes = JSON.parse(fs.readFileSync("loli.json"));
 const len = quotes.quote.length;
 salon = [];
 
-bot.login("NjY2MDAwMDcwNDE1NjEzOTcz.XpYBTA.7P9xub7pkxA7pF9r-0VH2zAvCYw");
+bot.login();
 
 bot.on('ready', () => {
 	console.log(`Logged in as ${bot.user.tag}!`);
